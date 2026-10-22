@@ -55,3 +55,14 @@
 @keyframes hero-arrive{from{opacity:0;transform:translateY(16px) scale(.985)}to{opacity:1;transform:translateY(0) scale(1)}}
 @media(prefers-reduced-motion:reduce){.scroll-reveal{opacity:1!important;transform:none!important}}
 
+/* Social links keep their recognizable platform colors. */
+.footer-identity{display:flex;align-items:center;gap:16px;min-width:0}
+.footer-follow{display:flex;align-items:center;gap:18px}
+.footer-follow>span{font-size:12px;color:#59654e}
+.footer-socials{display:flex;align-items:center;gap:10px}
+.social-link{display:flex;align-items:center;justify-content:center;width:48px;height:48px;flex:none;border-radius:12px;background:#fff;border:1px solid #e2e8db}
+.social-link svg{display:block;width:30px;height:30px}
+.social-link:focus-visible{outline:2px solid #679c2a;outline-offset:4px}
+@media(prefers-reduced-motion:no-preference){.social-link{transition:transform .2s,box-shadow .2s}@media(hover:hover) and (pointer:fine){.social-link:hover{transform:translateY(-3px);box-shadow:0 6px 14px #27331812}}}
+@media(max-width:760px){.footer-inner{flex-direction:column;align-items:stretch;gap:20px}.footer-identity{justify-content:center;gap:12px}.footer-note{text-align:left;max-width:none;font-size:11px}.footer-follow{border-top:1px solid #dfe7d5;padding-top:18px;flex-direction:column;gap:12px}.footer-follow>span{font-size:12px}.footer-socials{justify-content:center;gap:16px}.social-link{width:50px;height:50px}.site-footer{padding-block:24px 28px}}
+@media(max-width:360px){.footer-identity{gap:10px}.footer-note{font-size:10px}}
