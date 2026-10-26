@@ -104,3 +104,12 @@
 .location-directions:focus-visible{outline:3px solid #a5d846;outline-offset:4px}
 @media(hover:hover){.location-directions:hover{background:#33571b;border-color:#33571b;color:#fff}}
 @media(max-width:760px){.location-directions{min-height:54px;font-size:14px;padding:11px 15px}.directions-symbol{width:32px;height:32px}}
+/* Match the email action to the highlighted directions buttons. */
+.footer-email{padding:13px 17px;gap:12px;border:1px solid #426c23;border-radius:10px;background:#426c23;color:#fff;box-shadow:0 3px 9px #35591c18;max-width:100%}
+.footer-email .contact-icon{background:#ffffff20;color:#fff}
+.footer-email .contact-label{color:#e2efd8}
+.footer-email .email-address{color:#fff}
+.footer-email:focus-visible{outline:3px solid #a5d846;outline-offset:4px}
+@media(hover:hover){.footer-email:hover{background:#33571b;border-color:#33571b}}
+@media(max-width:760px){.footer-email{padding:14px;min-height:68px;gap:11px}.footer-email .email-address{font-size:12px}}
+@media(max-width:360px){.footer-email{padding:11px;gap:8px}.footer-email .email-address{font-size:11px}}
