@@ -53,8 +53,8 @@ function SocialLinks(){
 }
 const locations = [
  {name:'Korangi No. 5',address:'Shop No.10, Main Landhi Road, Korangi Number 5 Rd, near Rashid Latif Academy, Sector 36 J Landhi Town, Karachi, Pakistan',map:'https://maps.app.goo.gl/pWtptrhKoonEZM8Y9',phone:'03302244399'},
- {name:'Landhi Road',address:'R4FQ+7HX, Landhi Rd, Sector 33/A Sector 41 A Korangi, Karachi, Pakistan',map:'https://maps.app.goo.gl/d9gLMXa8kGgEW7FU6',phone:'03102590444'},
- {name:'Shah Faisal Colony',address:'V4PV+479, Plot # SB-34 A-1 Rd, Block 1 Shah Faisal Colony 1 Shah Faisal Colony, Shah Faisal Town, 75230, Pakistan',map:'https://maps.app.goo.gl/DBKek7YPxAztkM1E7',phone:'03700811365'}
+ {name:'Landhi Road',address:' Landhi Rd, Sector 33/A Sector 41 A Korangi, Karachi, Pakistan',map:'https://maps.app.goo.gl/d9gLMXa8kGgEW7FU6',phone:'03102590444'},
+ {name:'Shah Faisal Colony',address:' Plot # SB-34 A-1 Rd, Block 1 Shah Faisal Colony 1 Shah Faisal Colony, Shah Faisal Town, 75230, Pakistan',map:'https://maps.app.goo.gl/DBKek7YPxAztkM1E7',phone:'03700811365'}
 ];
 function ContactIcon({type}){
  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">{type==='pin'?<><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></>:type==='phone'?<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2.1Z"/>:<><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></>}</svg>;
