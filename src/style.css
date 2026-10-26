@@ -96,3 +96,11 @@
 @media(max-width:1000px) and (min-width:761px){.location-grid{gap:12px}.location-card{padding:18px}.location-title{gap:9px}.location-title h3{font-size:14px}}
 @media(max-width:760px){.footer-contact{padding-block:10px 28px}.footer-contact-heading{display:flex;flex-direction:column;align-items:stretch;gap:18px;margin-bottom:22px}.footer-contact-heading h2{font-size:30px}.footer-email{padding:13px;background:#eaf1e3;border-radius:10px;gap:10px}.email-address{font-size:12px}.location-grid{grid-template-columns:minmax(0,1fr);gap:14px}.location-card{padding:21px}.location-title h3{font-size:17px}.location-card address{font-size:13px;line-height:1.85}.location-phone{font-size:15px}.location-directions{font-size:13px;min-height:48px}.site-footer>.footer-inner{padding-top:23px}}
 @media(max-width:360px){.footer-email{padding:10px;gap:8px}.footer-email .contact-icon{width:34px;height:34px}.email-address{font-size:11px}.location-card{padding:18px}}
+/* Prominent directions action on every location card. */
+.location-directions{justify-content:flex-start;gap:10px;min-height:52px;margin-top:14px;padding:10px 14px;border:1px solid #426c23;border-radius:8px;background:#426c23;color:#fff;font-size:13px;font-weight:700;box-shadow:0 3px 9px #35591c18}
+.directions-symbol{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;flex:none;border-radius:7px;background:#ffffff20}
+.directions-symbol svg{width:22px;height:22px}
+.directions-arrow{margin-left:auto;font-size:21px;line-height:1}
+.location-directions:focus-visible{outline:3px solid #a5d846;outline-offset:4px}
+@media(hover:hover){.location-directions:hover{background:#33571b;border-color:#33571b;color:#fff}}
+@media(max-width:760px){.location-directions{min-height:54px;font-size:14px;padding:11px 15px}.directions-symbol{width:32px;height:32px}}
