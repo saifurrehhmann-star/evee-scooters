@@ -1,7 +1,7 @@
 ﻿import React, {useEffect, useRef} from 'react';
 import {createRoot} from 'react-dom/client';
 import './style.css';
-const models=[{name:'S1 Air',price:'279,000',image:'scooter-2.jpg',specs:<> <strong>75 kmph</strong> · 2200W · Graphene<br/><strong>72V 38Ah</strong> · 7 hours · 100 km</>},{name:'SQUBE',price:'289,000',image:'scooter-1.jpg',specs:<><strong>65 km/hr</strong> · 2000–2500W · BYD Lithium<br/><strong>76.8V 30Ah</strong> · 4–5 hours · 80–90 km</>}];
+const models=[{name:'S1 Air',price:'279,000',image:'scooter-2.jpg',specs:<> <strong>75 kmph</strong> · 2200W · Graphene<br/><strong>72V 38Ah</strong> · 7 hours · 100 km</>},{name:'SQUBE',price:'299,000',image:'scooter-0.png',specs:<><strong>65 km/hr</strong> · 2000–2500W · BYD Lithium<br/><strong>76.8V 30Ah</strong> · 4–5 hours · 80–90 km</>}];
 function Brand(){return <a className="brand" href="#top" aria-label="Evee home"><img src="/images/logo.jpg" alt="Evee"/></a>}
 function useScrollReveal(){
  const page = useRef(null);
@@ -53,7 +53,7 @@ function SocialLinks(){
 }
 const locations = [
  {name:'Korangi No. 5',address:'Shop No.10, Main Landhi Road, Korangi Number 5 Rd, near Rashid Latif Academy, Sector 36 J Landhi Town, Karachi, Pakistan',map:'https://maps.app.goo.gl/pWtptrhKoonEZM8Y9',phone:'03302244399'},
- {name:'Landhi Road',address:' Landhi Rd, Sector 33/A Sector 41 A Korangi, Karachi, Pakistan',map:'https://maps.app.goo.gl/d9gLMXa8kGgEW7FU6',phone:'03102590444'},
+ {name:'Landhi Road',address:' Building no .T-618 Ground Floor Korangi 2 Karachi, Pakistan',map:'https://maps.app.goo.gl/d9gLMXa8kGgEW7FU6',phone:'03102590444'},
  {name:'Shah Faisal Colony',address:' Plot # SB-34 A-1 Rd, Block 1 Shah Faisal Colony 1 Shah Faisal Colony, Shah Faisal Town, 75230, Pakistan',map:'https://maps.app.goo.gl/DBKek7YPxAztkM1E7',phone:'03700811365'}
 ];
 function ContactIcon({type}){
